@@ -1,28 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "..\\bluetooth RC"
-		},
-		{
-			"path": "..\\Pro micro IR racer"
-		},
-		{
-			"path": "..\\Uno IR racer"
-		},
-		{
 			"path": "context"
-		},
-		{
-			"name": "Uno multiple racer",
-			"path": "..\\Uno multiple racer"
-		},
-		{
-			"name": "joystick racer",
-			"path": "..\\joystick racer"
-		},
-		{
-			"name": "Uno ultrasonic",
-			"path": "..\\Uno ultrasonic"
 		}
 	]
 }
