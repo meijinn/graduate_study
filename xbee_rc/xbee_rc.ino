@@ -13,8 +13,8 @@ Servo speedcontroller;
 //int servoneutral = 63;
 //int speedcontrollerneutral = 63;
 
-int steering=90; //= servoneutral;
-int vel=100; //= speedcontrollerneutral;
+int steering=89; //= servoneutral;
+int vel=96; //= speedcontrollerneutral;
 //int reversea = 'F';
 //boolean reverseb = false;
 

@@ -19,7 +19,7 @@ ControlSlider[] sliders = new ControlSlider[2];
 void setup(){
   //XBee Explorer USB
   port=new Serial(this,"COM14",115200);
-  
+  port.clear();
   size(360, 200);
   
   control = ControlIO.getInstance(this);
@@ -40,7 +40,7 @@ void setup(){
 }
 void draw(){
 keyPressed();
-println(constrain((int)steering, 45, 135));
+println((int)steering);
 println((int)vel);
 }
 
@@ -63,8 +63,8 @@ void keyPressed(){
  port.clear();
  }
  if(key=='e'){
- port.write(90);
- port.write(100);
+ port.write(89);
+ port.write(96);
  port.clear();
  }
 }
