@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.sjis) (TeX Live 2020/W32TeX) (preloaded format=platex 2020.6.24)  2 JUL 2020 19:00
+This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.sjis) (TeX Live 2020/W32TeX) (preloaded format=platex 2020.6.24)  14 JAN 2021 10:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/shallow/vs_workspace/context/test/reporttest.tex
-(c:/Users/shallow/vs_workspace/context/test/reporttest.tex
+**c:/Users/shallow/github/graduate_study/vs_workspace/context/test/reporttest.tex
+(c:/Users/shallow/github/graduate_study/vs_workspace/context/test/reporttest.tex
 pLaTeX2e <2020-04-12> (based on LaTeX2e <2020-02-02> patch level 5)
 L3 programming layer <2020-06-18> (c:/texlive/2020/texmf-dist/tex/platex/jsclasses/jsarticle.cls
 Document Class: jsarticle 2020/02/02 jsclasses (okumura, texjporg)
@@ -202,11 +202,11 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 ] (./reporttest.aux) ) 
 Here is how much of TeX's memory you used:
  1810 strings out of 480982
- 23456 string characters out of 5915964
+ 23522 string characters out of 5915964
  268717 words of memory out of 5000000
  18004 multiletter control sequences out of 15000+600000
  550330 words of font info for 103 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 30i,4n,27p,264b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,4n,27p,286b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on reporttest.dvi (1 page, 572 bytes).
+Output written on reporttest.dvi (1 page, 576 bytes).

@@ -1,6 +1,3 @@
-//vel = map(sliders[1].getValue(), -1, 1, 80, 110);
-
-
 import processing.serial.*;
 
 import net.java.games.input.*;
@@ -48,14 +45,14 @@ public void getUserInput(){
  // assign our float value 
  //access the controller.
  steering = map(sliders[0].getValue(), -1, 1, 0, 180);
- vel = map(sliders[1].getValue(), -1, 1, 90, 104);//92, 104
+ vel = map(sliders[1].getValue(), -1, 1, 92, 104);//92, 104
 
 }
 
 void keyPressed(){
  if(key=='s'){
  getUserInput();
- port.write(constrain((int)steering, 40, 140));
+ port.write(constrain((int)steering, 40, 140));//40, 140
  port.write((int)vel);
  }
  if(key=='c')

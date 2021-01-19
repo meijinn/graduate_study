@@ -20,8 +20,8 @@ int vel=96; //= speedcontrollerneutral;
 
 void setup() {
   Serial.begin(115200);
-  servo.attach(10);
-  speedcontroller.attach(11);
+  servo.attach(10);//10
+  speedcontroller.attach(11);//11
 }
 
 void loop() {
