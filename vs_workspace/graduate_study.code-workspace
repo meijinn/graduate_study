@@ -2,6 +2,19 @@
 	"folders": [
 		{
 			"path": "context"
+		},
+		{
+			"path": "presentation"
 		}
-	]
+	],
+	"settings": {
+		"markdown.styles": [
+			"C:\\Users\\shallow\\github\\graduate_study\\vs_workspace\\presentation\\future.css",
+			"C:\\Users\\shallow\\github\\graduate_study\\vs_workspace\\presentation\\test1.css"
+		],
+		"markdown.marp.themes": [
+			"future.css",
+			"test1.css"
+		]
+	}
 }

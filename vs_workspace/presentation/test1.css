@@ -1,0 +1,40 @@
+/* @theme test1 */
+
+@import 'default';
+
+section {
+	width: 1920px;
+	height: 1080px;
+	font-size: 40px;
+	font-family: 'BIZ UDPゴシック';
+	padding: 40px;
+	background-image: url(./logo.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size:40% auto;
+}
+
+header {
+	width: 100%;
+	padding: 1px;
+	color: black;
+	text-align: left;
+	top: 120px;
+	font-size: 25px;
+	
+}
+
+footer {
+	width: 90%;
+	background: linear-gradient(to right, silver, white);
+	color: black;
+	text-align: left;
+	padding: 5px;
+	font-style: normal;
+	font-size: 25px;
+}
+
+h1 {
+	font-size: 90px;
+	color: rgb(55, 82, 141);
+}

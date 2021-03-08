@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.sjis) (TeX Live 2020/W32TeX) (preloaded format=platex 2020.6.24)  31 JAN 2021 13:39
+This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.sjis) (TeX Live 2020/W32TeX) (preloaded format=platex 2020.6.24)  4 FEB 2021 11:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -352,10 +352,10 @@ Missing character: There is no 2 in font nullfont!
 Here is how much of TeX's memory you used:
  12412 strings out of 480982
  268930 string characters out of 5915964
- 513771 words of memory out of 5000000
+ 514771 words of memory out of 5000000
  28425 multiletter control sequences out of 15000+600000
  537254 words of font info for 48 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  60i,6n,83p,466b,880s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (1 page, 23264 bytes).
+Output written on main.dvi (1 page, 23944 bytes).

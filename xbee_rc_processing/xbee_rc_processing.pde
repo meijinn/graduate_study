@@ -7,7 +7,7 @@ import org.gamecontrolplus.gui.*;
 Serial port;
 float steering;
 float vel;
-boolean flag;
+
 ControlDevice device;
 ControlIO control;
 
@@ -20,8 +20,7 @@ void setup(){
   size(360, 200);
   
   control = ControlIO.getInstance(this);
-  //cont = control.getMatchedDevice("dfgt");
-  //device = control.getDevice("Wireless controller for PLAYSTATION(R)3");
+
   device = control.getDevice("Logitech Driving Force");
    if (device == null) {
     println("not today chump");
@@ -30,10 +29,7 @@ void setup(){
   
   sliders[0] = device.getSlider(0);//left joystick
   sliders[1] = device.getSlider(1);
-  //println(Arduino.list());
-  //arduino = new Arduino(this, Arduino.list()[3], 57600);
-  //arduino.pinMode(10, Arduino.SERVO);
-  //arduino.pinMode(11, Arduino.SERVO);
+
 }
 void draw(){
 keyPressed();

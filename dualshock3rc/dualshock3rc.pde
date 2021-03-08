@@ -16,7 +16,7 @@ ControlSlider[] sliders = new ControlSlider[8];
 
 
 void setup() {
-  port = new Serial(this,"COM14",115200);
+  port = new Serial(this,"COM5",115200);
   port.clear();
   size(360, 200);
   
@@ -43,7 +43,7 @@ public void getUserInput(){
  // assign our float value 
  //access the controller.
  steering = map(sliders[7].getValue(), -1, 1, 0, 180);
- vel1 = map(sliders[0].getValue(), -1, 1, 91, 93);//110); 90 87
+ vel1 = map(sliders[0].getValue(), -1, 1, 91, 93);//110); 90 87 91
  vel2 = map(sliders[1].getValue(), -1, 1, 114, 93);//114 117
  vel = (vel1+vel2)/2;
  //println(thumb);
