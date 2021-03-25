@@ -65,6 +65,11 @@ void keyPressed(){
  getUserInput();
  port.write(constrain((int)steering, 40, 140));//40,140 50, 150
  port.write((int)vel);
+ //delay(3);
+ //port.write(constrain((int)steering, 40, 140));//40,140 50, 150
+ //port.write(96);
+ 
+ delay(10);
  }
  if(key=='c')
  {

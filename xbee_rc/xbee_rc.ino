@@ -4,9 +4,11 @@
 * Arduino Duemilanove ---- SVSC_A
 */
 
-#include <Servo.h>
-Servo servo;
-Servo speedcontroller;
+//#include <Servo.h>
+#include <VarSpeedServo.h>
+
+VarSpeedServo servo;
+VarSpeedServo speedcontroller;
 //int val1;
 //int val2;
 
@@ -29,7 +31,7 @@ void loop() {
     steering = Serial.read();
     vel = Serial.read();
     //val3 = Serial.read();
-    Serial.print(65);
+    //Serial.print(65);
   }
   servo.write(steering);
   speedcontroller.write(vel);
