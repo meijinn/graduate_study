@@ -43,8 +43,13 @@ These establish wireless connection PC to Arduino. Please refer [this Xbee1](htt
 - run xbee_rc_processing.pde on processing IDE
 - Set up your python environment ver.3.7 32 bit
 - install gopropy-api on your python environment [refer here](https://github.com/KonradIT/gopro-py-api). and [using guide is here](https://github.com/KonradIT/goprowifihack/blob/master/MAX/MAX-Commands.md). 
-- Wiring like them.![3 3V_Servo](https://user-images.githubusercontent.com/27892408/112413429-88b87200-8d63-11eb-8487-92c1041ecdaf.png)
-**NOTICE**
+- Wiring like them.
+
+
+![3 3V_Servo](https://user-images.githubusercontent.com/27892408/112413429-88b87200-8d63-11eb-8487-92c1041ecdaf.png)
+
+
+- **NOTICE**
 Arduino might be broken by Overvoltage.
 Please refer carefully specification of your RC Servos.
 
