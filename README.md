@@ -31,7 +31,7 @@ These establish wireless connection PC to Arduino. Please refer [this Xbee1](htt
 1. Wires, Cables
 1. Tamiya XB series TT01D-Type-E TOYOTA 86. I think that any Tamiya XB series goes.
 1. XCTU
-1. gopro max (coming soon. Please look forward to next update.)
+1. gopro max x1
 ## Installation
 
 - Install Arduino IDE. [here](https://www.arduino.cc/en/main/software/).
@@ -41,12 +41,22 @@ These establish wireless connection PC to Arduino. Please refer [this Xbee1](htt
 - write xbee_rc.ino on Arduino
 - connect GT Force Pro and transmitter Xbee on PC
 - run xbee_rc_processing.pde on processing IDE
+- Set up your python environment ver.3.7 32 bit
+- install gopropy-api on your python environment [refer here](https://github.com/KonradIT/gopro-py-api). and [using guide is here](https://github.com/KonradIT/goprowifihack/blob/master/MAX/MAX-Commands.md). 
+- Wiring like them.![3 3V_Servo](https://user-images.githubusercontent.com/27892408/112413429-88b87200-8d63-11eb-8487-92c1041ecdaf.png)
+**NOTICE**
+Arduino might be broken by Overvoltage.
+Please refer carefully specification of your RC Servos.
+
 
 ## Future plans
 Implement 
-- FPV cam, Gopro max enable to see the live streaming video on PC.
-- Mock shifting system.
+- ~~FPV cam, Gopro max enable to see the live streaming video on PC.~~
+- Improving streaming latency.
+- ~~Mock shifting system.~~
 - Driving assist system.
+
+
 ## Get Feedback
 
 Requests are welcome.
