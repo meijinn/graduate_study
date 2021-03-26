@@ -78,4 +78,4 @@ This document is written by
 
 ## License
 
-.
+MIT License.
