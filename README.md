@@ -63,4 +63,4 @@ This document is written by
 
 ## License
 
-MIT Licence.
+MIT Licene.
