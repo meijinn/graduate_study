@@ -63,4 +63,4 @@ This document is written by
 
 ## License
 
-This project is **Confidential**.
+MIT Licence.
