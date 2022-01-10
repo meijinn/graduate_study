@@ -16,7 +16,7 @@ ControlSlider[] sliders = new ControlSlider[8];
 
 
 void setup() {
-  port = new Serial(this,"COM14",115200);
+  port = new Serial(this,"COM4",115200);
   port.clear();
   size(360, 200);
   

@@ -15,7 +15,7 @@ ControlSlider[] sliders = new ControlSlider[2];
 
 void setup(){
   //XBee Explorer USB
-  port=new Serial(this,"COM14",115200);
+  port=new Serial(this,"COM4",115200);
   port.clear();
   size(360, 200);
   
@@ -45,7 +45,7 @@ public void getUserInput(){
  // assign our float value 
  //access the controller.
  steering = map(sliders[0].getValue(), -1, 1, 0, 180);
- vel = map(sliders[1].getValue(), -1, 1, 92, 104);//92, 104
+ vel = map(sliders[1].getValue(), -1, 1, 90, 104);//92, 104
 
 }
 
